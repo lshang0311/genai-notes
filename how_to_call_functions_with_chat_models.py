@@ -38,15 +38,26 @@ def chat_completion_request(messages, functions=None, function_call=None, model=
         return e
 
 
+# ex - 1
 messages = []
-messages.append({"role": "system",
-                 "content": "Don't make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous."
-                 })
+messages.append({
+    "role": "system",
+    "content": "Don't make assumptions about what values to plug into functions. "
+               "Ask for clarification if a user request is ambiguous."
+})
 messages.append({"role": "user", "content": "What's the weather like today"})
 chat_response = chat_completion_request(
     messages
 )
 assistant_message = chat_response.json()["choices"][0]["message"]
+print(assistant_message)
+"""
+Output of `assistant_message`:
+{'role': 'assistant', 'content': "I'm sorry, but you didn't mention the location. Can you please provide me with the name of the city or town?"}
+"""
 messages.append(assistant_message)
+
+# ex -2 (add the function)
+# TODO:
 
 print()
