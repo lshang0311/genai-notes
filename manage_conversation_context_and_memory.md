@@ -6,5 +6,4 @@
 
 
 Reference
-
-    1. [Managing conversation context & memory](https://www.humanfirst.ai/blog/chatgpt-apis-managing-conversation-context-memory)
+- [Managing conversation context & memory](https://www.humanfirst.ai/blog/chatgpt-apis-managing-conversation-context-memory)
