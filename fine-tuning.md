@@ -13,4 +13,5 @@ deprecated models.
 Fine-tuning is possible with some of the models. See the section for case study.
 
 - A step-by-step implementation of fine-tuning GPT-3
+
   See a Python example in [`datacamp` tutorial](https://www.datacamp.com/tutorial/fine-tuning-gpt-3-using-the-open-ai-api-and-python).
