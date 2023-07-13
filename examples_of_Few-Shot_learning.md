@@ -1,0 +1,1 @@
+[How To Use GPT-3, GPT-4, ChatGPT, GPT-J, And Other Generative Models, With Few-Shot Learnin](https://nlpcloud.com/effectively-using-gpt-j-gpt-neo-gpt-3-alternatives-few-shot-learning.html)
