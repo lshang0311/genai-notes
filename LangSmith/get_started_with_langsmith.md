@@ -1,4 +1,3 @@
-
 # LangSmith Announcement
   [LangChain announced `LangSmith` on Jul 18, 2023](https://blog.langchain.dev/announcing-langsmith/)
 
@@ -24,11 +23,4 @@ Example logs
 
 [LangSmith Project Page](https://smith.langchain.com/)
 ![LangSmith Project](langsmith_projects.png)
-
-
-
-
-
-
-
 
