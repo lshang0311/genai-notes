@@ -21,6 +21,7 @@ Example code
 - [run_langsmith_example](run_langsmith_example.py)
 
 Example logs
+[LangSmith Project Page](https://smith.langchain.com/)
 ![LangSmith Project](langsmith_projects.png)
 
 
