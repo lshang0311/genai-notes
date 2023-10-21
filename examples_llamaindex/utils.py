@@ -8,7 +8,7 @@ def load_env(env: str):
     if env == 'TEST':
         env_path = os.getenv(
             'ENVIRONMENT',
-            os.path.join(os.getcwd(), 'examples_llamaindex', '.env.test')
+            os.path.join(os.getcwd(), '.env.test')
         )
     else:
         raise ValueError(f"Invalid environment: {env}.")
