@@ -1,8 +1,9 @@
+import os
 from llama_index import VectorStoreIndex, SimpleDirectoryReader, ServiceContext
 from llama_index import set_global_service_context
 
-from llm_initialization import init_llm, init_embeddings
-from utils import load_env
+from llamaindex.llm_initialization import init_llm, init_embeddings
+from llamaindex.utils import load_env
 
 """
 Ref:
@@ -10,7 +11,9 @@ Ref:
 """
 
 # documents
-documents = SimpleDirectoryReader('data').load_data()
+#  http://paulgraham.com/worked.html
+cwd = os.getcwd()
+documents = SimpleDirectoryReader(os.path.join(cwd, 'llamaindex', 'data')).load_data()
 
 # llm
 env = "TEST"

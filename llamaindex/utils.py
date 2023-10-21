@@ -6,7 +6,10 @@ from dotenv import load_dotenv
 
 def load_env(env: str):
     if env == 'TEST':
-        env_path = os.getenv('ENVIRONMENT', '.env.test')
+        env_path = os.getenv(
+            'ENVIRONMENT',
+            os.path.join(os.getcwd(), 'llamaindex', '.env.test')
+        )
     else:
         raise ValueError(f"Invalid environment: {env}.")
 
